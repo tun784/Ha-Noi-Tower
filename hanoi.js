@@ -73,7 +73,7 @@ function hanoiMain(mode, rel) {
     s += '<div id="success" style="position:absolute; left:0; top:40px; width:' + w + 'px; font: bold 36px Arial; text-align: center; color: gold;">Well Done !</div>';
     s += '<canvas id="canvasId" width="' + w + '" height="' + h + '" style="z-index:2;"></canvas>';
     s += '<div id="info" style="position:absolute; right:20px; bottom:5px; margin-left: 30px; font: 16px Arial; text-align: center; color: black;">Minimum Moves: 7</div>';
-    s += '<div id="copyrt" style="position:absolute; left:3px; bottom:3px; font: 10px Arial; font-weight: bold; color: blue; ">&copy; GameVui.VN</div>';
+    s += '<div id="copyrt" style="position:absolute; left:3px; bottom:3px; font: 10px Arial; font-weight: bold; color: blue; ">&copy;</div>';
     s += '</div>';
     document.write(s);
     el = document.getElementById('canvasId');
